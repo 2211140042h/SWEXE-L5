@@ -1,5 +1,3 @@
-login_uid: <%= session[:login_uid] %><br>
-
 <% @tweets.each do |e| %>
 <%= e.message %>
 (user_id: <%= e.user_id %>)
